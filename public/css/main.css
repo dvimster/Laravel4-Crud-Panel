@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+ul li {
+	list-style: none;
+}
+
+/*=======================================*/
+
+.nav {
+	width: 960px;
+	margin: 10px auto 0 auto;
+	background: grey;
+	height: 60px;
+	border-radius: 5px;
+}
+
+.nav ul {
+	padding: 15px 0 0 0;
+}
+
+.nav ul li {
+	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin: 0 20px 0 0;
+}
+
+.nav ul li:first-child {
+	margin: 0 20px 0 20px;
+}
+
+.nav ul li a:hover {
+	color: red;
+}
+
